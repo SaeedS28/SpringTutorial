@@ -19,6 +19,12 @@
                               http://www.springframework.org/schema/aop 
                    http://www.springframework.org/schema/aop/spring-aop.xsd">
                    
+     <context:component-scan base-package="com.saeeds28.SpringTutorial" />
 	<bean id="vehicle" class ="com.saeeds28.SpringTutorial.pojos.Car"></bean>
+	
+	<bean id="tire" class="com.saeeds28.SpringTutorial.pojos.Tire">
+		<property name="brand" value="Michellin"/>
+		<property name="size" value="45"/>
+	</bean>
 
 </beans>
