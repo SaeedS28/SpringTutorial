@@ -18,6 +18,7 @@ public class App  {
         ApplicationContext con = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         Vehicle obj = con.getBean(Car.class);
         obj.drive();
+        System.out.println(obj);
         
         Vehicle obj2 = con.getBean(Bike.class);
         obj2.drive();

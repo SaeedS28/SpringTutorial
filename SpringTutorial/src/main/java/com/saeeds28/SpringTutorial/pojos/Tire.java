@@ -5,10 +5,9 @@ public class Tire {
 	private String brand;
 	private double size;
 	
-	public Tire(String brand, double size) {
+	public Tire(String brand) {
 		super();
 		this.brand = brand;
-		this.size = size;
 	}
 
 	public Tire() {}
